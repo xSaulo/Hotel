@@ -1,0 +1,374 @@
+/* =========================================================
+   Hotel Tama Lodge — estilos
+   Paleta: selva #0E2A23 · arena #FBF8F3 / #F1E9DC · coral #C4532E · teal #0F5E63
+   ========================================================= */
+:root {
+  --ink: #0E2A23;
+  --ink-2: #33443F;
+  --muted: #4A5A55;
+  --bg: #FBF8F3;
+  --sand: #F1E9DC;
+  --sand-2: #F4EFE7;
+  --line: #D9D0C2;
+  --line-2: #EEE7DC;
+  --coral: #C4532E;
+  --coral-dark: #A9441F;
+  --teal: #0F5E63;
+  --mint: #8FD3C8;
+  --mist: #C9D6D1;
+  --white: #FFFFFF;
+  --radius-lg: 32px;
+  --radius: 24px;
+  --shadow: 0 10px 30px rgba(14, 42, 35, .08);
+  --shadow-lg: 0 24px 60px rgba(14, 42, 35, .18);
+  --font-display: 'Bricolage Grotesque', system-ui, sans-serif;
+  --font-body: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --wrap: 1280px;
+  --gutter: 5vw;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  color: var(--ink);
+  background: var(--bg);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+img, video { max-width: 100%; display: block; }
+a { color: var(--teal); }
+a:hover { color: var(--ink); }
+button, input, select { font: inherit; }
+:focus-visible { outline: 3px solid var(--coral); outline-offset: 3px; border-radius: 6px; }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+.skip { position: absolute; left: 12px; top: -60px; z-index: 100; background: var(--white); color: var(--ink); padding: 10px 16px; border-radius: 10px; }
+.skip:focus { top: 12px; }
+
+.wrap { max-width: var(--wrap); margin: 0 auto; }
+.section { padding: 96px var(--gutter); }
+.eyebrow { margin: 0 0 12px; font-size: 13px; letter-spacing: .22em; text-transform: uppercase; font-weight: 600; color: var(--teal); }
+.eyebrow--coral { color: var(--coral); }
+.eyebrow--mint { color: var(--mint); }
+.h2 { margin: 0; font-family: var(--font-display); font-weight: 700; font-size: clamp(34px, 4.4vw, 52px); line-height: 1.02; letter-spacing: -.03em; }
+.h3 { margin: 0; font-family: var(--font-display); font-weight: 700; font-size: clamp(28px, 3vw, 40px); line-height: 1.05; letter-spacing: -.02em; }
+.lead { margin: 0; font-size: 18px; line-height: 1.65; color: var(--muted); }
+
+/* ---------- Botones ---------- */
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 10px;
+  min-height: 52px; padding: 0 28px; border-radius: 999px;
+  font-weight: 600; font-size: 16px; text-decoration: none; border: 0; cursor: pointer;
+  transition: transform .15s ease, background-color .15s ease, color .15s ease;
+}
+.btn:hover { transform: translateY(-1px); }
+.btn--coral { background: var(--coral); color: var(--white); }
+.btn--coral:hover { background: var(--coral-dark); color: var(--white); }
+.btn--ink { background: var(--ink); color: var(--white); }
+.btn--ink:hover { background: #163f34; color: var(--white); }
+.btn--white { background: var(--white); color: var(--ink); }
+.btn--white:hover { color: var(--ink); }
+.btn--outline { border: 1.5px solid var(--ink); color: var(--ink); background: transparent; }
+.btn--outline-light { border: 1.5px solid var(--white); color: var(--white); background: transparent; }
+.btn--outline-light:hover { color: var(--white); background: rgba(255,255,255,.1); }
+.link-arrow { font-weight: 600; text-decoration: none; display: inline-flex; gap: 8px; align-items: center; }
+
+/* ---------- Header ---------- */
+.header {
+  position: fixed; inset: 0 0 auto 0; z-index: 50;
+  display: flex; align-items: center; justify-content: space-between; gap: 16px;
+  padding: 20px var(--gutter);
+  color: var(--white);
+  transition: background-color .25s ease, padding .25s ease, box-shadow .25s ease;
+}
+.header.is-solid { background: rgba(14, 42, 35, .96); padding-top: 12px; padding-bottom: 12px; box-shadow: 0 8px 30px rgba(0,0,0,.18); }
+.logo { display: inline-flex; align-items: baseline; gap: 2px; color: var(--white); text-decoration: none; font-family: var(--font-display); font-size: 30px; letter-spacing: -.02em; }
+.logo:hover { color: var(--white); }
+.logo b { font-weight: 800; }
+.logo span { font-weight: 500; }
+.logo small { font-family: var(--font-body); font-size: 11px; letter-spacing: .2em; text-transform: uppercase; margin-left: 10px; opacity: .85; }
+.nav { display: flex; align-items: center; gap: 28px; font-size: 15px; font-weight: 500; }
+.nav a:not(.btn) { color: var(--white); text-decoration: none; }
+.nav a:not(.btn):hover { text-decoration: underline; text-underline-offset: 6px; }
+.nav a[aria-current="page"] { text-decoration: underline; text-underline-offset: 6px; }
+.header-actions { display: flex; align-items: center; gap: 12px; }
+
+/* Selector de idioma */
+.lang {
+  display: flex; align-items: center; gap: 2px; padding: 4px;
+  border-radius: 999px; background: rgba(255,255,255,.14); border: 1px solid rgba(255,255,255,.5);
+}
+.lang svg { margin: 0 4px 0 6px; flex: none; }
+.lang button {
+  min-height: 36px; padding: 0 14px; border: 0; border-radius: 999px;
+  background: transparent; color: var(--white); font-weight: 600; font-size: 14px; cursor: pointer;
+}
+.lang button[aria-pressed="true"] { background: var(--white); color: var(--ink); }
+.lang .short { display: none; }
+
+.menu-btn {
+  display: none; width: 44px; height: 44px; border-radius: 999px;
+  border: 1px solid rgba(255,255,255,.6); background: rgba(255,255,255,.12);
+  align-items: center; justify-content: center; cursor: pointer; color: var(--white);
+}
+
+/* ---------- Hero ---------- */
+.hero {
+  position: relative; min-height: min(100vh, 860px); min-height: min(100svh, 860px);
+  display: flex; align-items: flex-end;
+  color: var(--white);
+  background-color: var(--ink);
+  background-image:
+    linear-gradient(180deg, rgba(9,28,23,.55) 0%, rgba(9,28,23,.05) 35%, rgba(9,28,23,.15) 60%, rgba(9,28,23,.78) 100%),
+    url(../img/hero-playa-grande.webp);
+  background-size: cover; background-position: center 60%;
+}
+.hero--zona {
+  min-height: 620px;
+  background-image:
+    linear-gradient(180deg, rgba(9,28,23,.55) 0%, rgba(9,28,23,.05) 40%, rgba(9,28,23,.8) 100%),
+    url(../img/playa-tamarindo.webp);
+  background-position: center;
+}
+.hero__inner { width: 100%; padding: 140px var(--gutter) 150px; max-width: 1180px; }
+.hero--zona .hero__inner { padding-bottom: 72px; }
+.hero__kicker { margin: 0 0 18px; font-size: 14px; letter-spacing: .24em; text-transform: uppercase; font-weight: 600; }
+.hero__kicker a { color: var(--white); text-decoration: none; }
+.hero h1 { margin: 0; font-family: var(--font-display); font-weight: 800; font-size: clamp(48px, 8vw, 112px); line-height: .95; letter-spacing: -.035em; }
+.hero p.hero__sub { margin: 24px 0 0; font-size: clamp(17px, 1.6vw, 20px); line-height: 1.5; max-width: 600px; opacity: .96; }
+
+/* ---------- Reserva ---------- */
+.booking { position: relative; z-index: 3; margin: -80px var(--gutter) 0; }
+.booking__form {
+  max-width: var(--wrap); margin: 0 auto;
+  background: var(--white); border-radius: 20px; box-shadow: var(--shadow-lg);
+  padding: 20px; display: flex; flex-wrap: wrap; gap: 12px; align-items: stretch;
+}
+.field {
+  flex: 1 1 170px; min-width: 0; display: flex; flex-direction: column; gap: 6px;
+  padding: 12px 18px; border-radius: 14px; background: var(--sand-2);
+  font-size: 12px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--muted);
+}
+.field--sm { flex-basis: 120px; }
+.field input, .field select {
+  border: 0; background: transparent; font-size: 17px; font-weight: 500; color: var(--ink);
+  padding: 0; letter-spacing: 0; text-transform: none; width: 100%; min-width: 0; min-height: 26px;
+}
+.field input:focus, .field select:focus { outline: none; }
+.field:focus-within { box-shadow: 0 0 0 2px var(--teal) inset; }
+.booking__submit { flex: 1 1 240px; min-height: 64px; border-radius: 14px; font-size: 17px; }
+.booking__meta { max-width: var(--wrap); margin: 14px auto 0; }
+.booking__hint { margin: 0 4px; font-size: 14px; color: var(--muted); }
+.trust { margin: 14px 4px 0; padding: 0; list-style: none; display: flex; flex-wrap: wrap; gap: 10px 24px; font-size: 14px; font-weight: 600; }
+.trust li { display: flex; align-items: center; gap: 6px; }
+
+/* ---------- Chips ---------- */
+.chips { padding: 64px var(--gutter) 8px; display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; }
+.chip {
+  display: inline-flex; align-items: center; gap: 10px; padding: 14px 22px;
+  border: 1px solid var(--line); border-radius: 999px; background: var(--white);
+  text-decoration: none; color: var(--ink); font-weight: 500;
+}
+.chip:hover { border-color: var(--teal); color: var(--ink); }
+
+/* ---------- Bloques narrativos ---------- */
+.intro { text-align: center; max-width: 780px; margin: 0 auto 96px; }
+.story { display: flex; flex-wrap: wrap; gap: 56px; align-items: center; margin-bottom: 96px; }
+.story:last-child { margin-bottom: 0; }
+.story--rev { flex-wrap: wrap-reverse; }
+.story__media { flex: 1 1 420px; min-width: 0; }
+.story__text { flex: 1 1 380px; display: flex; flex-direction: column; gap: 18px; }
+.story__img { width: 100%; height: 680px; object-fit: cover; object-position: center 40%; border-radius: 28px; }
+.story__pair { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+.story__pair img { width: 100%; height: 480px; object-fit: cover; border-radius: 28px; }
+.story__pair img:last-child { margin-top: 48px; }
+
+/* ---------- Banda reserva directa ---------- */
+.band {
+  margin: 0 var(--gutter); border-radius: var(--radius-lg); color: var(--white); padding: 72px 6%;
+  background-image: linear-gradient(90deg, rgba(9,28,23,.9) 0%, rgba(9,28,23,.6) 55%, rgba(9,28,23,.1) 100%), url(../img/isla-venado-bahia.webp);
+  background-size: cover; background-position: center;
+}
+.band__inner { max-width: 580px; display: flex; flex-direction: column; gap: 22px; }
+.band .eyebrow { color: var(--white); }
+.checks { margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 14px; font-size: 18px; }
+.checks li { display: flex; gap: 12px; align-items: center; }
+.btn-row { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 8px; }
+
+/* ---------- Habitaciones ---------- */
+.rooms { display: flex; flex-wrap: wrap; background: var(--white); border-radius: var(--radius-lg); overflow: hidden; box-shadow: 0 16px 48px rgba(14,42,35,.08); }
+.rooms__text { flex: 1 1 480px; padding: 64px 56px; display: flex; flex-direction: column; gap: 22px; }
+.rooms__img { flex: 1 1 380px; min-width: 0; width: 100%; height: auto; min-height: 520px; max-height: 720px; align-self: stretch; object-fit: cover; }
+.amenities { margin: 0; padding: 0; list-style: none; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px 24px; font-size: 16px; }
+.amenities li { display: flex; gap: 10px; align-items: center; }
+
+/* ---------- Testimonios ---------- */
+.testimonials { background: var(--ink); color: var(--white); }
+.section-head { display: flex; justify-content: space-between; align-items: flex-end; flex-wrap: wrap; gap: 24px; margin-bottom: 44px; }
+.rating {
+  display: flex; align-items: center; gap: 14px; text-decoration: none; color: var(--white);
+  border: 1px solid rgba(255,255,255,.25); border-radius: 18px; padding: 14px 20px;
+}
+.rating:hover { color: var(--white); border-color: rgba(255,255,255,.6); }
+.rating b { font-family: var(--font-display); font-size: 36px; font-weight: 800; }
+.rating span { font-size: 14px; line-height: 1.4; }
+.stars { color: #F5B841; letter-spacing: 2px; }
+.videos { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 28px; }
+.video-card { margin: 0; display: flex; flex-direction: column; gap: 14px; }
+.video-card video { width: 100%; aspect-ratio: 9 / 16; object-fit: cover; border-radius: var(--radius); background: #08201A; }
+.video-card strong { display: block; font-family: var(--font-display); font-size: 22px; }
+.video-card span { font-size: 15px; color: var(--mist); }
+
+/* ---------- Cifras ---------- */
+.stats { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 32px; text-align: center; }
+.stat b { display: block; font-family: var(--font-display); font-weight: 800; font-size: clamp(44px, 5vw, 64px); letter-spacing: -.03em; color: var(--teal); line-height: 1.1; }
+.stat:first-child b { color: var(--coral); }
+.stat span { color: var(--muted); }
+
+/* ---------- La zona + mapa ---------- */
+.zone { display: flex; flex-wrap: wrap; background: var(--sand); border-radius: var(--radius-lg); overflow: hidden; }
+.zone__text { flex: 1 1 420px; padding: 64px 56px; display: flex; flex-direction: column; gap: 22px; }
+.places { margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 4px; }
+.place {
+  width: 100%; min-height: 56px; display: flex; justify-content: space-between; align-items: center; gap: 12px;
+  padding: 14px 16px; border: 0; border-radius: 14px; background: transparent; color: var(--ink);
+  font-size: 17px; font-weight: 500; text-align: left; cursor: pointer; transition: background-color .15s ease;
+}
+.place:hover { background: rgba(14,42,35,.06); }
+.place[aria-pressed="true"] { background: var(--ink); color: var(--white); }
+.place strong { font-weight: 600; white-space: nowrap; }
+.map { flex: 1 1 420px; min-height: 560px; position: relative; background: #DCE8E3; display: flex; flex-direction: column; }
+.map iframe { flex: 1; width: 100%; min-height: 380px; border: 0; display: block; }
+.map__card {
+  position: absolute; left: 20px; right: 20px; bottom: 20px;
+  background: var(--white); border-radius: 20px; padding: 18px 22px;
+  display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 14px;
+  box-shadow: 0 10px 30px rgba(14,42,35,.18);
+}
+.map__card strong { display: block; font-family: var(--font-display); font-size: 22px; }
+.map__card span { font-size: 15px; color: var(--muted); }
+.map__card .btn { min-height: 48px; padding: 0 22px; font-size: 15px; }
+.map--full { border-radius: var(--radius-lg); overflow: hidden; min-height: 520px; }
+
+/* ---------- Galería ---------- */
+.gallery { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 12px; }
+.gallery img { width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: 16px; }
+
+/* ---------- La zona (página) ---------- */
+.zone-intro { display: flex; flex-wrap: wrap; gap: 56px; align-items: flex-start; }
+.zone-intro__text { flex: 1 1 520px; display: flex; flex-direction: column; gap: 20px; }
+.zone-intro__text p { margin: 0; font-size: 19px; line-height: 1.7; color: var(--ink-2); }
+.aside-card { flex: 1 1 340px; background: var(--white); border-radius: var(--radius); padding: 28px; box-shadow: 0 12px 36px rgba(14,42,35,.08); }
+.aside-card h3 { margin: 0 0 8px; font-family: var(--font-display); font-size: 24px; }
+.aside-card .btn { width: 100%; margin-top: 16px; }
+.cards { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 24px; }
+.card { background: var(--white); border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow); }
+.card img { width: 100%; height: 240px; object-fit: cover; }
+.card div { padding: 22px; }
+.card h3 { margin: 0 0 8px; font-family: var(--font-display); font-size: 24px; }
+.card p { margin: 0; color: var(--muted); line-height: 1.6; }
+
+/* ---------- Footer ---------- */
+.footer { background: var(--ink); color: var(--mist); padding: 80px var(--gutter) 40px; }
+.footer__cta { display: flex; justify-content: space-between; align-items: flex-end; flex-wrap: wrap; gap: 28px; padding-bottom: 48px; border-bottom: 1px solid rgba(255,255,255,.15); }
+.footer__cta h2 { margin: 0; font-family: var(--font-display); font-size: clamp(36px, 5vw, 64px); line-height: 1; letter-spacing: -.03em; color: var(--white); max-width: 720px; }
+.footer__grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 40px; padding: 56px 0; font-size: 15px; line-height: 1.8; }
+.footer__grid p { margin: 0; }
+.footer__title { margin: 0 0 12px !important; color: var(--white); font-weight: 600; }
+.footer a { color: var(--mist); }
+.footer a:hover { color: var(--white); }
+.footer a.hl { color: var(--mint); }
+.footer__copy { margin: 0; font-size: 13px; color: #8FA39C; }
+
+/* ---------- Botones flotantes ---------- */
+.wa-float {
+  position: fixed; right: 24px; bottom: 24px; z-index: 40; width: 60px; height: 60px; border-radius: 999px;
+  background: #25D366; display: flex; align-items: center; justify-content: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,.25); transition: transform .15s ease;
+}
+.wa-float:hover { transform: scale(1.06); }
+.mobile-bar { display: none; }
+
+/* ---------- Menú móvil ---------- */
+.mobile-menu {
+  position: fixed; inset: 0; z-index: 60; background: var(--ink); color: var(--white);
+  display: flex; flex-direction: column; padding: 20px var(--gutter) 32px; gap: 8px;
+  transform: translateY(-100%); visibility: hidden; transition: transform .3s ease, visibility .3s;
+}
+.mobile-menu.is-open { transform: none; visibility: visible; }
+.mobile-menu__top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px; }
+.mobile-menu a:not(.btn):not(.logo) { color: var(--white); text-decoration: none; font-family: var(--font-display); font-size: 32px; padding: 10px 0; border-bottom: 1px solid rgba(255,255,255,.12); }
+.mobile-menu .btn { margin-top: 24px; }
+
+/* ---------- Animación al hacer scroll ---------- */
+.reveal { opacity: 0; transform: translateY(24px); transition: opacity .7s ease, transform .7s ease; }
+.reveal.is-visible { opacity: 1; transform: none; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .reveal { opacity: 1; transform: none; transition: none; }
+}
+
+/* =========================================================
+   Responsive
+   ========================================================= */
+@media (max-width: 1100px) {
+  .nav { display: none; }
+  .menu-btn { display: inline-flex; }
+  .header .btn--white { display: none; }
+  .gallery { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .cards { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .footer__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+@media (max-width: 760px) {
+  :root { --gutter: 20px; }
+  .section { padding: 64px var(--gutter); }
+  .header { padding: 14px var(--gutter); }
+  .logo { font-size: 24px; }
+  .logo small { display: none; }
+  .lang .long { display: none; }
+  .lang .short { display: inline; }
+  .lang button { padding: 0 12px; min-height: 34px; }
+  .hero__inner { padding: 120px var(--gutter) 110px; }
+  .hero { background-position: 30% 60%; min-height: 600px; }
+  .booking { margin-top: -64px; }
+  .booking__form { padding: 14px; gap: 10px; }
+  .field { flex: 1 1 calc(50% - 5px); padding: 10px 14px; font-size: 11px; }
+  .field input, .field select { font-size: 16px; }
+  .booking__submit { flex-basis: 100%; min-height: 56px; }
+  .trust { gap: 8px 16px; font-size: 13px; }
+  .chips { padding-top: 40px; flex-wrap: nowrap; overflow-x: auto; justify-content: flex-start; scrollbar-width: none; }
+  .chips::-webkit-scrollbar { display: none; }
+  .chip { flex: none; padding: 12px 18px; font-size: 14px; }
+  .intro { margin-bottom: 56px; }
+  .story { gap: 28px; margin-bottom: 64px; }
+  .story__img { height: 460px; }
+  .story__pair img { height: 300px; }
+  .story__pair img:last-child { margin-top: 28px; }
+  .band { padding: 48px 24px; background-image: linear-gradient(180deg, rgba(9,28,23,.65), rgba(9,28,23,.92)), url(../img/isla-venado-bahia.webp); }
+  .rooms__text, .zone__text { padding: 36px 24px; }
+  .rooms__img { min-height: 0; height: 340px; max-height: 340px; order: -1; }
+  .amenities { font-size: 15px; gap: 10px 16px; }
+  .videos { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; gap: 14px; margin: 0 calc(var(--gutter) * -1); padding: 0 var(--gutter); }
+  .video-card { flex: none; width: 72%; scroll-snap-align: start; }
+  .video-card strong { font-size: 18px; }
+  .stats { gap: 24px; }
+  .map { min-height: 480px; }
+  .map__card { left: 12px; right: 12px; bottom: 12px; padding: 14px 16px; }
+  .map__card .btn { width: 100%; }
+  .gallery { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .cards { grid-template-columns: 1fr; }
+  .footer { padding-bottom: 110px; }
+  .footer__grid { grid-template-columns: 1fr; gap: 28px; }
+  .wa-float { display: none; }
+  .mobile-bar {
+    position: fixed; left: 12px; right: 12px; bottom: 12px; z-index: 40; display: flex; gap: 10px;
+    transform: translateY(140%); transition: transform .3s ease;
+  }
+  .mobile-bar.is-visible { transform: none; }
+  .mobile-bar a { min-height: 54px; display: flex; align-items: center; justify-content: center; border-radius: 999px; text-decoration: none; font-weight: 600; box-shadow: 0 8px 24px rgba(0,0,0,.2); }
+  .mobile-bar .call { flex: 1; background: var(--white); color: var(--ink); }
+  .mobile-bar .book { flex: 2; background: var(--coral); color: var(--white); }
+}
