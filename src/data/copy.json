@@ -1,0 +1,378 @@
+{
+ "landings": {
+  "surf-tamarindo": {
+   "hero": "playa-grande-limpia.webp",
+   "pos": "center 55%",
+   "img1": "tamarindo-panorama.webp",
+   "img2": "cabalgata.webp",
+   "rooms": false,
+   "dest": false,
+   "es": {
+    "title": "Surf en Tamarindo, Costa Rica | Hotel para surfistas · Hotel Tama Lodge",
+    "desc": "Surfea en Tamarindo, Guanacaste: olas para principiantes en Playa Tamarindo y Playa Grande a 20 km. Hospédate en Hotel Tama Lodge, a 5 minutos de la playa. Reserva directo.",
+    "crumb": "Surf en Tamarindo",
+    "h1": "Surf en Tamarindo",
+    "sub": "Hospédate a 5 minutos de una de las playas de surf más conocidas de Costa Rica. Olas para aprender, olas para progresar y atardeceres para cerrar el día.",
+    "k1": "Surfear en Costa Rica",
+    "h2": "Tamarindo: el lugar ideal para aprender y mejorar tu surf.",
+    "p": [
+     "Playa Tamarindo es famosa en Guanacaste por sus olas suaves y constantes, perfectas para tomar tu primera clase de surf o volver a practicar. En el pueblo hay escuelas de surf y alquiler de tablas a pocos minutos del hotel.",
+     "Si ya tienes experiencia, Playa Grande está a unos 20 km (43 minutos en auto) y es conocida por sus olas más potentes. Tamarindo se surfea todo el año: en la temporada seca (aproximadamente de diciembre a abril) el viento suele ser favorable, y en la temporada verde llegan olas más grandes."
+    ],
+    "list": [
+     "A 5 minutos en auto de Playa Tamarindo",
+     "Playa Grande a 20 km",
+     "Te ponemos en contacto con escuelas y alquiler de tablas",
+     "Piscina, Wi‑Fi gratis y parqueo para descansar después del agua"
+    ],
+    "cta": "Pregúntanos por clases de surf",
+    "wa": "surf",
+    "faq": [
+     [
+      "¿Tamarindo es bueno para aprender a surfear?",
+      "Sí. Playa Tamarindo es una de las playas más populares de Costa Rica para principiantes por sus olas suaves y la cantidad de escuelas de surf en el pueblo."
+     ],
+     [
+      "¿Qué tan lejos está Playa Grande del hotel?",
+      "Playa Grande está a unos 20 km de Hotel Tama Lodge, aproximadamente 43 minutos en auto."
+     ],
+     [
+      "¿Pueden ayudarme con clases o alquiler de tablas?",
+      "Sí. Escríbenos por WhatsApp y te ponemos en contacto con escuelas de surf y lugares de alquiler de tablas en Tamarindo."
+     ]
+    ]
+   },
+   "en": {
+    "title": "Surf in Tamarindo, Costa Rica | Surf-friendly hotel · Hotel Tama Lodge",
+    "desc": "Surf in Tamarindo, Guanacaste: beginner-friendly waves at Playa Tamarindo and Playa Grande 20 km away. Stay at Hotel Tama Lodge, 5 minutes from the beach. Book direct.",
+    "crumb": "Surf in Tamarindo",
+    "h1": "Surf in Tamarindo",
+    "sub": "Stay 5 minutes from one of Costa Rica's best-known surf beaches. Waves to learn on, waves to progress on, and sunsets to end the day.",
+    "k1": "Surfing in Costa Rica",
+    "h2": "Tamarindo: the perfect place to learn and improve your surfing.",
+    "p": [
+     "Playa Tamarindo is famous in Guanacaste for its gentle, consistent waves, perfect for your first surf lesson or getting back on a board. Surf schools and board rentals are just minutes from the hotel.",
+     "If you already surf, Playa Grande is about 20 km away (43 minutes by car) and is known for more powerful waves. Tamarindo can be surfed year-round: the dry season (roughly December to April) usually brings favorable winds, and the green season brings bigger swells."
+    ],
+    "list": [
+     "5 minutes by car from Playa Tamarindo",
+     "Playa Grande 20 km away",
+     "We connect you with surf schools and board rentals",
+     "Pool, free Wi‑Fi and parking to relax after the water"
+    ],
+    "cta": "Ask us about surf lessons",
+    "wa": "surf",
+    "faq": [
+     [
+      "Is Tamarindo good for learning to surf?",
+      "Yes. Playa Tamarindo is one of Costa Rica's most popular beaches for beginners thanks to its gentle waves and the many surf schools in town."
+     ],
+     [
+      "How far is Playa Grande from the hotel?",
+      "Playa Grande is about 20 km from Hotel Tama Lodge, roughly 43 minutes by car."
+     ],
+     [
+      "Can you help with surf lessons or board rentals?",
+      "Yes. Message us on WhatsApp and we will connect you with surf schools and board rentals in Tamarindo."
+     ]
+    ]
+   }
+  },
+  "hotel-con-piscina-tamarindo": {
+   "hero": "tamarindo-hero.webp",
+   "pos": "center 55%",
+   "img1": "las-minas.webp",
+   "img2": "flamingo-limpia.webp",
+   "rooms": false,
+   "dest": false,
+   "es": {
+    "title": "Hotel con piscina en Tamarindo, Guanacaste | Hotel Tama Lodge",
+    "desc": "Hotel con piscina al aire libre en Tamarindo, Costa Rica: jardín tropical, habitaciones con aire acondicionado, Wi‑Fi y parqueo gratis, a 5 minutos de la playa. Reserva directo.",
+    "crumb": "Hotel con piscina",
+    "h1": "Hotel con piscina en Tamarindo",
+    "sub": "Del mar a la piscina: disfruta la playa en la mañana y relájate en nuestra piscina al aire libre, rodeada de un jardín tropical.",
+    "k1": "Piscina al aire libre",
+    "h2": "Tu día perfecto en Tamarindo termina junto a la piscina.",
+    "p": [
+     "En Hotel Tama Lodge tienes una piscina al aire libre con camastros y un jardín tropical, ideal para refrescarte entre una salida a la playa y otra, leer un libro o trabajar desde la terraza.",
+     "La piscina también se usa para clases de natación, y está a pocos pasos de las habitaciones. Y si prefieres el mar, Playa Tamarindo está a solo 5 minutos en auto."
+    ],
+    "list": [
+     "Piscina al aire libre con camastros",
+     "Jardín tropical y terrazas de madera",
+     "Clases de natación",
+     "Habitaciones con aire acondicionado y vista a la piscina"
+    ],
+    "cta": "Pregunta por disponibilidad",
+    "wa": "rooms",
+    "faq": [
+     [
+      "¿El hotel tiene piscina?",
+      "Sí, Hotel Tama Lodge tiene piscina al aire libre con camastros, rodeada de jardín tropical."
+     ],
+     [
+      "¿Las habitaciones tienen vista a la piscina?",
+      "Sí, las habitaciones están junto a la piscina y al jardín."
+     ],
+     [
+      "¿Qué tan lejos está la playa?",
+      "Playa Tamarindo está a 5 minutos en auto del hotel."
+     ]
+    ]
+   },
+   "en": {
+    "title": "Hotel with a pool in Tamarindo, Guanacaste | Hotel Tama Lodge",
+    "desc": "Hotel with an outdoor pool in Tamarindo, Costa Rica: tropical garden, air-conditioned rooms, free Wi‑Fi and parking, 5 minutes from the beach. Book direct.",
+    "crumb": "Hotel with a pool",
+    "h1": "Hotel with a pool in Tamarindo",
+    "sub": "From the ocean to the pool: enjoy the beach in the morning and unwind by our outdoor pool, surrounded by a tropical garden.",
+    "k1": "Outdoor pool",
+    "h2": "Your perfect Tamarindo day ends by the pool.",
+    "p": [
+     "At Hotel Tama Lodge you have an outdoor pool with sun loungers and a tropical garden, perfect for cooling off between beach trips, reading a book or working from the terrace.",
+     "The pool is also used for swimming lessons and is just steps from the rooms. And if you prefer the ocean, Playa Tamarindo is only 5 minutes away by car."
+    ],
+    "list": [
+     "Outdoor pool with sun loungers",
+     "Tropical garden and wooden terraces",
+     "Swimming lessons",
+     "Air-conditioned rooms with pool views"
+    ],
+    "cta": "Ask about availability",
+    "wa": "rooms",
+    "faq": [
+     [
+      "Does the hotel have a pool?",
+      "Yes, Hotel Tama Lodge has an outdoor pool with sun loungers, surrounded by a tropical garden."
+     ],
+     [
+      "Do the rooms have pool views?",
+      "Yes, the rooms are next to the pool and garden."
+     ],
+     [
+      "How far is the beach?",
+      "Playa Tamarindo is 5 minutes by car from the hotel."
+     ]
+    ]
+   }
+  },
+  "habitaciones": {
+   "hero": "cabalgata.webp",
+   "pos": "center 45%",
+   "img1": "mariposa.webp",
+   "img2": "atardecer-limpia.webp",
+   "rooms": true,
+   "dest": false,
+   "es": {
+    "title": "Habitaciones en Tamarindo con aire acondicionado | Hotel Tama Lodge",
+    "desc": "Habitaciones en Tamarindo, Costa Rica: Habitación Doble y Estudio Equipado con cocina, aire acondicionado, baño privado y Wi‑Fi gratis. Precios en tiempo real y reserva en línea.",
+    "crumb": "Habitaciones",
+    "h1": "Habitaciones en Tamarindo",
+    "sub": "Cuartos cómodos y frescos, con aire acondicionado, baño privado y Wi‑Fi gratis, a 5 minutos de Playa Tamarindo. Mira precios en tiempo real y reserva en línea.",
+    "k1": "Cuartos y estudios",
+    "h2": "Elige entre Habitación Doble y Estudio Equipado con cocina.",
+    "p": [
+     "Nuestras habitaciones son ideales para parejas y viajeros que buscan un lugar tranquilo para descansar en Tamarindo. Todas tienen aire acondicionado, baño privado y Wi‑Fi gratis, para un máximo de 2 adultos.",
+     "El Estudio Equipado incluye cocina con refrigeradora y microondas, perfecto para estancias largas y nómadas digitales que quieren sentirse como en casa."
+    ],
+    "list": [
+     "Aire acondicionado y baño privado",
+     "Wi‑Fi gratis en todo el hotel",
+     "Estudio con cocina equipada",
+     "Máximo 2 adultos por habitación"
+    ],
+    "cta": "Ver habitaciones disponibles",
+    "wa": "rooms",
+    "faq": [
+     [
+      "¿Qué tipos de habitación hay?",
+      "Habitación Doble y Estudio Equipado con cocina, ambas con aire acondicionado, baño privado y Wi‑Fi gratis."
+     ],
+     [
+      "¿Cuántas personas caben por habitación?",
+      "Cada habitación es para un máximo de 2 adultos."
+     ],
+     [
+      "¿Cómo veo precios y disponibilidad?",
+      "Elige tus fechas en la barra de reserva de esta página y verás los precios en tiempo real."
+     ]
+    ]
+   },
+   "en": {
+    "title": "Rooms in Tamarindo with air conditioning | Hotel Tama Lodge",
+    "desc": "Rooms in Tamarindo, Costa Rica: Double Room and Equipped Studio with kitchen, air conditioning, private bathroom and free Wi‑Fi. Live prices and online booking.",
+    "crumb": "Rooms",
+    "h1": "Rooms in Tamarindo",
+    "sub": "Comfortable, cool rooms with air conditioning, private bathroom and free Wi‑Fi, 5 minutes from Playa Tamarindo. See live prices and book online.",
+    "k1": "Rooms and studios",
+    "h2": "Choose between the Double Room and the Equipped Studio with kitchen.",
+    "p": [
+     "Our rooms are ideal for couples and travelers looking for a quiet place to rest in Tamarindo. All have air conditioning, a private bathroom and free Wi‑Fi, for up to 2 adults.",
+     "The Equipped Studio includes a kitchen with fridge and microwave, perfect for long stays and digital nomads who want to feel at home."
+    ],
+    "list": [
+     "Air conditioning and private bathroom",
+     "Free Wi‑Fi throughout the hotel",
+     "Studio with equipped kitchen",
+     "Up to 2 adults per room"
+    ],
+    "cta": "See available rooms",
+    "wa": "rooms",
+    "faq": [
+     [
+      "What room types are there?",
+      "Double Room and Equipped Studio with kitchen, both with air conditioning, private bathroom and free Wi‑Fi."
+     ],
+     [
+      "How many people fit in a room?",
+      "Each room is for up to 2 adults."
+     ],
+     [
+      "How do I see prices and availability?",
+      "Pick your dates in the booking bar on this page to see live prices."
+     ]
+    ]
+   }
+  },
+  "hotel-guanacaste": {
+   "hero": "tamarindo-hero.webp",
+   "pos": "center 45%",
+   "img1": "conchal.webp",
+   "img2": "las-minas.webp",
+   "rooms": false,
+   "dest": true,
+   "es": {
+    "title": "Hotel en Guanacaste, Costa Rica | Tamarindo · Hotel Tama Lodge",
+    "desc": "Hotel en Guanacaste, Costa Rica, ubicado en Tamarindo: tu base para conocer Playa Conchal, Las Minas, Flamingo, Playa Grande y Rincón de la Vieja. A 68 km del aeropuerto de Liberia.",
+    "crumb": "Hotel en Guanacaste",
+    "h1": "Hotel en Guanacaste, Costa Rica",
+    "sub": "Hospédate en Tamarindo, el corazón de la costa de Guanacaste, y recorre las playas y aventuras más lindas de Costa Rica.",
+    "k1": "Tu base en Guanacaste",
+    "h2": "Desde Tamarindo, todo Guanacaste está a un paseo de distancia.",
+    "p": [
+     "Guanacaste es la provincia de las playas en Costa Rica, y Tamarindo es uno de sus pueblos más completos: restaurantes, surf, vida nocturna y tours a pocos minutos.",
+     "Desde Hotel Tama Lodge puedes visitar Playa Conchal, Las Minas, Playa Flamingo, Playa Grande o la Hacienda Guachipelín en Rincón de la Vieja. El Aeropuerto Internacional de Liberia (LIR) está a 68 km, aproximadamente 1 hora y 45 minutos."
+    ],
+    "list": [
+     "En Tamarindo, Guanacaste",
+     "Aeropuerto de Liberia a 68 km",
+     "Te ayudamos con tours y traslados",
+     "Piscina, Wi‑Fi y parqueo gratis"
+    ],
+    "cta": "Te ayudamos a planear tu tour",
+    "wa": "tours",
+    "faq": [
+     [
+      "¿En qué parte de Guanacaste está el hotel?",
+      "Hotel Tama Lodge está en Tamarindo, en la costa del Pacífico de Guanacaste, Costa Rica."
+     ],
+     [
+      "¿Qué aeropuerto me queda más cerca?",
+      "El Aeropuerto Internacional de Liberia (LIR), a 68 km, aproximadamente 1 hora y 45 minutos en auto."
+     ],
+     [
+      "¿Qué lugares puedo visitar desde el hotel?",
+      "Playa Tamarindo, Playa Grande, Playa Conchal, Las Minas, Playa Flamingo y Rincón de la Vieja, entre otros."
+     ]
+    ]
+   },
+   "en": {
+    "title": "Hotel in Guanacaste, Costa Rica | Tamarindo · Hotel Tama Lodge",
+    "desc": "Hotel in Guanacaste, Costa Rica, located in Tamarindo: your base to explore Playa Conchal, Las Minas, Flamingo, Playa Grande and Rincón de la Vieja. 68 km from Liberia Airport.",
+    "crumb": "Hotel in Guanacaste",
+    "h1": "Hotel in Guanacaste, Costa Rica",
+    "sub": "Stay in Tamarindo, the heart of the Guanacaste coast, and explore Costa Rica's most beautiful beaches and adventures.",
+    "k1": "Your base in Guanacaste",
+    "h2": "From Tamarindo, all of Guanacaste is a short drive away.",
+    "p": [
+     "Guanacaste is Costa Rica's beach province, and Tamarindo is one of its liveliest towns: restaurants, surf, nightlife and tours just minutes away.",
+     "From Hotel Tama Lodge you can visit Playa Conchal, Las Minas, Playa Flamingo, Playa Grande or Hacienda Guachipelín in Rincón de la Vieja. Liberia International Airport (LIR) is 68 km away, about 1 hour 45 minutes."
+    ],
+    "list": [
+     "In Tamarindo, Guanacaste",
+     "Liberia Airport 68 km away",
+     "We help with tours and transfers",
+     "Pool, free Wi‑Fi and parking"
+    ],
+    "cta": "Let us plan your tour",
+    "wa": "tours",
+    "faq": [
+     [
+      "Where in Guanacaste is the hotel?",
+      "Hotel Tama Lodge is in Tamarindo, on Guanacaste's Pacific coast in Costa Rica."
+     ],
+     [
+      "Which airport is closest?",
+      "Liberia International Airport (LIR), 68 km away, about 1 hour 45 minutes by car."
+     ],
+     [
+      "What can I visit from the hotel?",
+      "Playa Tamarindo, Playa Grande, Playa Conchal, Las Minas, Playa Flamingo and Rincón de la Vieja, among others."
+     ]
+    ]
+   }
+  }
+ },
+ "faq": [
+  {
+   "q": {
+    "es": "¿Dónde está Hotel Tama Lodge?",
+    "en": "Where is Hotel Tama Lodge?"
+   },
+   "a": {
+    "es": "Estamos en Tamarindo, Guanacaste, Costa Rica (75V8+M64, Avenida Central), a 5 minutos en auto de Playa Tamarindo y a 1 km del mercado nocturno.",
+    "en": "We are in Tamarindo, Guanacaste, Costa Rica (75V8+M64, Avenida Central), 5 minutes by car from Playa Tamarindo and 1 km from the night market."
+   }
+  },
+  {
+   "q": {
+    "es": "¿Qué tan lejos está el aeropuerto de Liberia?",
+    "en": "How far is Liberia Airport?"
+   },
+   "a": {
+    "es": "El Aeropuerto Internacional de Liberia (LIR) está a 68 km, aproximadamente 1 hora y 45 minutos en auto. Escríbenos por WhatsApp y te ayudamos con el traslado.",
+    "en": "Liberia International Airport (LIR) is 68 km away, about 1 hour 45 minutes by car. Message us on WhatsApp and we will help you arrange a transfer."
+   }
+  },
+  {
+   "q": {
+    "es": "¿Qué tipos de habitación tienen?",
+    "en": "What room types do you offer?"
+   },
+   "a": {
+    "es": "Tenemos Habitación Doble y Estudio Equipado con cocina. Todas tienen aire acondicionado, baño privado y Wi‑Fi gratis, para un máximo de 2 adultos.",
+    "en": "We offer a Double Room and an Equipped Studio with kitchen. All rooms have air conditioning, a private bathroom and free Wi‑Fi, for up to 2 adults."
+   }
+  },
+  {
+   "q": {
+    "es": "¿El hotel tiene piscina y parqueo?",
+    "en": "Does the hotel have a pool and parking?"
+   },
+   "a": {
+    "es": "Sí. Tenemos piscina al aire libre, jardín tropical, estacionamiento gratis y servicio de lavandería.",
+    "en": "Yes. We have an outdoor pool, a tropical garden, free parking and laundry service."
+   }
+  },
+  {
+   "q": {
+    "es": "¿Aceptan estancias largas o nómadas digitales?",
+    "en": "Do you welcome long stays and digital nomads?"
+   },
+   "a": {
+    "es": "Sí. Muchos huéspedes se quedan semanas con nosotros. Escríbenos por WhatsApp para conocer las tarifas de estancia larga.",
+    "en": "Yes. Many guests stay with us for weeks. Message us on WhatsApp to ask about our long-stay rates."
+   }
+  },
+  {
+   "q": {
+    "es": "¿Cómo puedo reservar?",
+    "en": "How can I book?"
+   },
+   "a": {
+    "es": "Reserva en línea en esta página con precios en tiempo real y sin comisiones de terceros, o escríbenos por WhatsApp al +506 8992 6888 o a ota@hoteltamalodge.com.",
+    "en": "Book online on this page with live prices and no third-party fees, or message us on WhatsApp at +506 8992 6888 or email ota@hoteltamalodge.com."
+   }
+  }
+ ]
+}
